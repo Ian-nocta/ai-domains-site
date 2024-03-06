@@ -11,7 +11,7 @@ import "../styles/global.css";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/campfire-fill.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{SITE_TITLE}</title>
@@ -22,83 +22,92 @@ import "../styles/global.css";
     </button>
 
     <div class="text-center mb-3">
-      <h1 class="text-2xl font-bold mb-1 dark:text-white">Max Mustermann</h1>
+      <h1 class="text-2xl font-bold mb-1 dark:text-white">Himothy Jr</h1>
       <h2 class="text-base dark:text-white">
-        Musterstrasse 1, 12345 Musterstadt
+        892 Momona St, Honolulu, HI 96820
       </h2>
       <h3 class="text-base dark:text-white">
-        <a
-          href="tel:+49 1234 567890"
-          class="hover:text-red-500 dark:text-white dark:hover:text-red-500"
-          >+49 1234 567890
-        </a>
+        <a href="tel:+49 1234 567890" class="hover:text-red-500 dark:text-white dark:hover:text-red-500">01-47-87441</a>
         |
-        <a
-          href="mailto:max.mustermann@example.com"
-          class="hover:text-red-500 dark:text-white dark:hover:text-red-500"
-          >max.mustermann@example.com</a
-        >
-      </h3>
+        <a href="mailto:himoty.jr@him.com" class="hover:text-red-500 dark:text-white dark:hover:text-red-500">himoty.jr@him.com</a>
+        |
+        <a class="hover:text-red-500 dark:text-white dark:hover:text-red-500"> Pronouns USD/GBP</a >
+    </h3>
     </div>
 
     <div id="education" class="mb-6">
       <SectionTitle title="Education" />
-
+    
       <RowEntry
-        description="My first steps in informatics earning a bachelor degree in informatics."
-        name="10/2016 - 10/2020"
-        title="Bachelor of Science Informatics"
-        subTitle="Stuttgart"
+        description="Purveyor of Forbidden Elixirs"
+        name="08/2014 - 08/2018"
+        title="Bachelor of Science"
+        subTitle="Streets"
+      />
+    
+      <RowEntry
+        description="Cypherpunk"
+        name="09/2018 - 06/2020"
+        title="Masters "
+        subTitle="Tor"
+      />
+    
+      <RowEntry
+        description="Philanderer of Note"
+        name="09/2020 - Present"
+        title="DPhil"
+        subTitle="Satin Sheets"
       />
     </div>
 
     <div id="work" class="mb-6">
       <SectionTitle title="Working experience" />
-
+    
       <RowEntry
-        description="Started working as a fulltime frontend developer. After some time I got more and more into backend development as well by developing APIs with Node.js."
-        name="10/2020 - today"
-        title="Full stack developer"
-        subTitle="Munich"
+        description="Leveraged expertise in 'Forbidden Elixirs' to create innovative and engaging experiences as a Mixologist, leading to a significant increase in customer satisfaction and repeat business."
+        name="08/2014 - 08/2018"
+        title="Master Mixologist"
+        subTitle="The Cobbledstones Speakeasy"
       />
-
+    
       <RowEntry
-        description="I've extended my knowledge in frontend development by developing single page applications with React and Angular."
-        name="10/2019 - 10/2020"
-        title="Frontend developer (Working student)"
-        subTitle="Munich"
+        description="Utilized knowledge of cryptography and privacy-enhancing technologies gained during 'Cypherpunk' master's program to develop secure communication systems for the company's clients."
+        name="09/2020 - Present"
+        title="Security Engineer"
+        subTitle="Tor Network Labs"
       />
-
+    
       <RowEntry
-        description="Some first steps a frontend developer using some basic HTML, CSS and JavaScript. I've developed some smaller applications."
-        name="10/2017 - 01/2019"
-        title="Frontend developer (Working student)"
-        subTitle="Stuttgart"
+        description="Applied interpersonal skills honed as a 'Philanderer of Note' to manage complex relationships with clients, resulting in a 25% increase in client retention rates."
+        name="09/2020 - Present"
+        title="Client Relations Manager"
+        subTitle="Satin Sheets Consulting"
       />
     </div>
+    
 
     <div id="programming-experience" class="mb-6">
       <SectionTitle title="Programming experience" />
 
       <RowEntry
-        description="Developed an app for ordering food with Angular."
-        name="07/2019 - 12/2019"
-        title="Food ordering app"
+        description="Developed this website for my CV"
+        name="03/2024"
+        title="CV Website"
       />
     </div>
 
     <div id="skills" class="mb-6">
       <SectionTitle title="Skills and interests" />
 
-      <RowEntry description="German, English, French" name="Languages" />
+      <RowEntry description="English, Spanish, French, Python, Js " name="Languages" />
 
       <RowEntry
-        description="Technologies you're interested in..."
+        description="Pocketless pants for brokies"
         name="Technologies"
       />
 
       <RowEntry
-        description="Further interests beside tech stuff..."
+        description="Yagi World babes"
         name="Interests"
       />
     </div>
@@ -115,13 +124,6 @@ import "../styles/global.css";
       </div>
       <div class="mr-4">
         <SocialIcon icon="fa-brands:dev" label="dev" url="https://www.dev.to/" />
-      </div>
-      <div class="mr-4">
-        <SocialIcon
-          icon="fa-brands:stack-overflow"
-          label="stack-overflow"
-          url="#"
-        />
       </div>
       <div>
         <SocialIcon icon="ant-design:global-outlined" label="website" url="https://www.stackoverflow.com/" />
